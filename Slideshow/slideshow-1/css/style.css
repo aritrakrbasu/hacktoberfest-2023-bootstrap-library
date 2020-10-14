@@ -1,0 +1,30 @@
+.carousel {
+  background-color: #887a99;
+  border-radius: 10px;
+  margin: 100px;
+}
+
+.carousel-inner {
+  height: 500px;
+}
+
+.slides {
+  background-color: #8b997a;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 5px black;
+  height: 100px;
+  margin: auto;
+  margin-top: 200px;
+  width: 40%;
+}
+
+h1 {
+  color: white;
+  font-size: 10vw;
+  padding: 25px;
+  text-align: center;
+}
+
+i {
+  font-size: 30px;
+}
