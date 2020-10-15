@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+body{
+    background: #ffdbdb;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: #ffdbdb;
+    font-family: 'Poppins', sans-sherif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden
+}
+
+.ticker {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto
+}
+
+.news {
+    width: 76%;
+    background: #cc4444;
+    padding: 0 2%
+}
+
+.title {
+    width: 20%;
+    text-align: center;
+    background: #c81c1c;
+    position: relative
+}
+
+.title:after {
+    position: absolute;
+    content: "";
+    right: -22%;
+    border-left: 20px solid #c81c1c;
+    border-top: 28px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 21px solid transparent;
+    top: 0px
+}
+
+.title h5 {
+    font-size: 18px;
+    margin: 8% 0
+}
+
+.news marquee {
+    font-size: 18px;
+    margin-top: 12px
+}
+
+.news-content p {
+    margin-right: 41px;
+    display: inline
+}
