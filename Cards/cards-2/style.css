@@ -1,0 +1,41 @@
+body{
+    
+     font-family: sans-serif;
+}
+
+.container {
+    padding: 10% !important;
+}
+
+
+
+/* Food-Card */
+.cookies{
+    background-color: #faceae !important;
+   }
+
+   .price-tag{
+       background-color: #eff4f9;
+       border-radius: 24px;
+   }
+
+
+/* Profile-Card */
+
+.profile {
+    background-color:#c0d6e4 !important;
+}
+
+.user-post  {
+    color: #3f3f3f !important;
+    font-size: 15px !important;
+}
+
+/* Dress-Card */
+.coupun{
+ background: #ccc;
+ }
+
+.size-chart{
+    margin-bottom: 10px !important;
+}
