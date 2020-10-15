@@ -127,3 +127,7 @@
         margin-right: 0;
     }
 }
+
+#menu-toggle{
+    outline-style: dashed;
+}
