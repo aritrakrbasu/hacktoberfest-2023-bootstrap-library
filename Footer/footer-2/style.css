@@ -1,0 +1,22 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:seashell;
+     
+    
+    
+}
+
+.row,.title h1,
+.social {
+    text-align: center !important;
+}
+
+.title p{
+    text-align: left !important;
+}
+
+.contact p, h1, h3{
+    text-align: left !important;
+}
