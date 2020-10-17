@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body {
+  background-image:url("https://res.cloudinary.com/dyiugkn4y/image/upload/v1571671166/GA%20Pix/SEI/background-image1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.div-1 {
+  padding-left: 350px;
+}
+
+.container {
+  padding-top: 250px;
+}
+
+.card {
+  box-shadow: -1px 2px 18px -1px rgba(0,0,0,0.75);
+  height: 250px;
+  width: 150%;
+}
+
+h3, p {
+  font-family: 'Open Sans', sans-serif;
+}
