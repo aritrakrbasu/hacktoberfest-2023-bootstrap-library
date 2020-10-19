@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+        Author : Ross McHardie
+        Github: https://github.com/rmchardie/
+    -->
+
+    <!-- Responsive meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Page CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Bootstrap Navbar with Login & Register Modals</title>
+  </head>
+  <body>
+    
+    <!-- Header Area (with responsive navbar) -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="https://github.com/rmchardie/">
+            <img src="images/logo.png" alt="rm logo">
+          </a>
+          <!-- Hamburger menu button -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <!-- Button to launch login form modal -->
+                <button type="button" class="nav-link text-light btn btn-secondary loginBtn" data-toggle="modal" data-target="#loginModal">
+                  <i class="fas fa-user-lock"></i> Login
+                </button>
+              </li>
+              <li class="nav-item">
+                <!-- Button to launch register form modal -->
+                <button type="button" class="nav-link text-light btn btn-outline-warning text-dark" data-toggle="modal" data-target="#registerModal">
+                  <i class="fas fa-user-plus"></i> Register
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Login Form Modal -->
+      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                <img src="images/logo.png"> Login
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" class="form-control" id="username">
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password">
+                  <small id="passwordHelp" class="form-text">
+                    <a href="#" class="text-danger">Forgotten password?</a>
+                  </small>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="rememberMe">
+                  <label class="form-check-label" for="rememberMe">Remember me</label>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Cancel
+                  </button>
+                  <button type="submit" class="btn btn-warning">
+                    <i class="fas fa-user-lock"></i> Login
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Login Form Modal -->
+
+      <!-- Register Form Modal -->
+      <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                <img src="images/logo.png"> Register
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="formHeader">
+                All fields are <b class="text-danger">required</b>
+              </div>
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="username">E-mail address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                  <small id="usernameHelp" class="form-text text-muted">We'll never share your e-mail with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" class="form-control" id="username" aria-describedby="usernameHelp" required>
+                  <small id="usernameHelp" class="form-text text-muted">
+                    Must not contain any spaces.
+                  </small>
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password"aria-describedby="passwordHelp" required minlength="6">
+                  <small id="passwordHelp" class="form-text text-muted">Must be at least 6 characters.</small>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="terms">
+                  <label class="form-check-label" for="terms" required>
+                    I agree to the <a href="#" class="text-info"> Terms & Conditions</a>
+                  </label>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                  <button type="submit" class="btn btn-warning">
+                    <i class="fas fa-user-plus"></i> Register
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Register Form Modal -->
+    </header>
+    <!-- End of Header Area -->
+
+    <!-- Description Area -->
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 pageTitle">
+            <h1>Hacktoberfest 2020</h1>
+          </div>
+        </div>
+        <div class="row subHeader">
+          <div class="col-12">
+            <h4 class="text-muted">Bootstrap Navbar with Login & Register Modals</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            The above navbar has been designed to be fully responsive with a hamburger menu for smartphones and other devices.
+          </div>
+        </div>
+        <div class="row endOfContent">
+          <div class="col-12">
+            The register form also includes HTML5 form validation.
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- End of Description Area -->
+
+    <!-- Footer Area -->
+    <footer>
+      <div class="container">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-md4 navbar">
+            <a href="#" class="nav-link text-dark">Home</a>
+            <a href="#" class="nav-link text-dark">About</a>
+            <a href="#" class="nav-link text-dark">Services</a>
+            <a href="#" class="nav-link text-dark">Contact</a>
+          </div>
+          <div class="col-md4 navbar">
+            <a href="#" class="nav-link text-dark">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#" class="nav-link text-dark">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="#" class="nav-link text-dark">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <div class="col-md4 navbar">
+            <a href="#" class="nav-link text-dark">&copy; 2020</a>
+            <a href="#" class="nav-link text-dark">Privacy</a>
+            <a href="#" class="nav-link text-dark">Legal</a>
+            <a href="#" class="nav-link text-dark">Feedback</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer Area -->
+
+    <!-- JavaScript for Bootstrap components -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6a2607df46.js" crossorigin="anonymous"></script>
+  </body>
+</html>
