@@ -1,0 +1,12 @@
+.footer{
+  bottom: 0;
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 100%;
+}
+
+.social-media{
+  text-align: center;
+  color: white;
+}
