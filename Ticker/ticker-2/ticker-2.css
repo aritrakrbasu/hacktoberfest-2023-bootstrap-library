@@ -4,7 +4,7 @@ body {
 }
 
 .news {
-    width: 160px
+    width: 160px;
 }
 
 .news-scroll a {
@@ -29,7 +29,6 @@ body {
      margin-left: 3px;
      margin-right: 3px;
      margin-top: 2px !important;
-   
-     border-radius: 50%;
+ border-radius: 50%;
      display: inline-block
 }
