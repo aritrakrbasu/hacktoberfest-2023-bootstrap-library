@@ -55,8 +55,10 @@ git push origin branch_name
 
 ## For Beginners:
 ```
-Fork this repository -> Create the Files in the Forked Repository(Available under your repositories) -> Send a Pull Request(PR) writing a proper documentation -> Wait for it to get Merged (if everything is rightly done, else update the requested changes 😉) 
-
+-> Fork this repository
+-> Create the Files in the Forked Repository(Available under your repositories)
+-> Send a Pull Request(PR) writing a proper documentation
+-> Wait for it to get Merged (if everything is rightly done, else update the requested changes 😉) 
 ```
 
 <p>
