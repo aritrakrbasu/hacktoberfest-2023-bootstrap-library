@@ -1,0 +1,15 @@
+
+
+footer ul {
+    list-style: none;
+}
+
+.icon-wrapper img {
+    width: 32px;
+}
+
+a:hover {
+    text-decoration: none;
+    filter: invert(1);
+    transition: .15s ease-in-out all;
+}
