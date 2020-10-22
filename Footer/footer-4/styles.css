@@ -1,6 +1,10 @@
 .footer{
   bottom: 0;
   background-color: black;
+<<<<<<< HEAD
+=======
+  color: white;
+>>>>>>> b3a75a48a3baedf93630ad348cd0fe82e8834e8b
   position: absolute;
   width: 100%;
 }
