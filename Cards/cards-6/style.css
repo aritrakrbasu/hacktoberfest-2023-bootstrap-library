@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 32px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow: 0 1rem 1.5rem rgba(99, 140, 255, 0.175) !important;
+    transition: .2s ease-in-out all;
+}
+
+p { 
+    margin:0;
+}
