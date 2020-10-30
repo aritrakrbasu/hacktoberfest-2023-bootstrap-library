@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: white !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  width: 40%;
+  min-height: 30%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.card-img {
+  background-size: cover;
+}
+
+.card-body {
+  width: 50%;
+  padding: 20px;
+  background: #ecdbf7;
+}
+
+.card-text {
+  text-align: justify;
+  padding: 0 !important;
+}
+
+.shadow {
+  color: darkslategray;
+}
+
+.btn {
+  background: #445080 !important;
+  color: white !important;
+  transition: transform 0.5s;
+}
+
+.icons {
+  font-size: 1em;
+  background-color: #a38df2;
+  height: 60px !important;
+  width: 60px !important;
+  padding: 20px;
+  margin: 0 10px;
+  transition: transform 0.5s;
+}
+
+.icon-flexbox {
+  width: 100% !important;
+  display: flex !important;
+  justify-items: center;
+  align-items: center;
+}
+
+.icons:hover {
+  background-color: #6204bf;
+  color: white;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.card:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transform: scale(2);
+  transform-origin: 50% 50%;
+  transition: transform 0.15s ease-out;
+}
+
+.card:hover:before {
+  transform: scale(2.15);
+}
