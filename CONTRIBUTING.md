@@ -5,8 +5,8 @@
 # ADDING NEW COMPONENTS :
 
 - Your component should be contained under desired Folder (eg: '"Navigation"' for a navigation bar or '"Slideshow" for a Slideshow').
-- Your folder name should be "exsiting folders + 1" (eg: you are adding a new navigation bar and the '"Navigation"' folder is empy then your file name  should be "navigationbar-1" and suppose if few items exists and the last folder name is "navigationbar-5" then your filename should be "navigationbar-6".
-- Each File ("name-of-component") should contain `author : your-name` and `link : your-solution-link` as comments at the begining of the file.
+- Your folder name should be "existing folders + 1" (eg: you are adding a new navigation bar and the '"Navigation"' folder is empy then your folder name should be "navbar-1" and suppose if few items exists and the last folder name is "navbar-5" then your folder name should be "navbar-6" and each folder should have "index.html" that will contain the code .
+- Each File ("index.html") should contain `author : your-name` and `link : your-solution-link` as comments at the begining of the file.
 - You can add one file preferably named as `explain.md` which will contain the code explanations.
 - We expect `components` should be well documented to explain the purpose of the codes.
 - Solutions should be `properly indented`.
@@ -19,9 +19,9 @@ You may contribute to the README or any of the documentation files if you want t
 
 # IMPORTANT POINTS BEFORE SENDING PULL REQUESTS:
 
-- Your `Solution` should be strictly in the `"filename.html"` file, other formats are not accepted
+- Your `Solution` should be strictly in the `"index.html"` file, other formats are not accepted
 - Maintainers should be able to update changes.
-- The `e.md` should not include any **LOGIC or IDEA** for solving the problem.
+- The `explain.md` should not include any **LOGIC or IDEA** for solving the problem.
 - **More emphasis is given on understanding the logic used to get the solution rather than the code itself**. Hence simply copy-pasting code is not encouraged.
 - Authenticity is expected and respected for every PULL REQUEST(s).
 
