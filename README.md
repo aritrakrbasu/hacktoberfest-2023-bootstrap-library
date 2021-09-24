@@ -2,6 +2,9 @@
 
 <img src="https://img.shields.io/github/contributors/basuinfotech/bootstrap-component-library">  <img src="https://img.shields.io/tokei/lines/github/basuinfotech/bootstrap-component-library">           <img src="https://img.shields.io/github/last-commit/basuinfotech/bootstrap-component-library">   <img src="https://img.shields.io/github/languages/count/basuinfotech/bootstrap-component-library">
 
+<br><br>
+  <img src="https://hacktoberfest.digitalocean.com/twitter-card.png">
+  
 This Repository will have different type of pre-build components like navigation bar , carousel etc etc based on bootstrap . Please consider contributing to it if you think your designed components could help newbie frontend coders . 
 
 All the compoments must be build up on bootstrap library .
@@ -62,8 +65,6 @@ Fork this repository -> Create the Files in the Forked Repository(Available unde
 <p>
   <br>
   <b>Happy Hacktober Fest 2020 🤩</b>
-  <br><br>
-  <img src="https://miro.medium.com/max/650/1*aWqwVvUIrDFdvETmhKPRzw.png">
 </p>
 
   
