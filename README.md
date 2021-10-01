@@ -1,4 +1,4 @@
-# Bootstrap-Component_library <img align = "right" src ="https://img.shields.io/github/watchers/basuinfotech/bootstrap-component-library?style=social"> <img align = "right" src ="https://img.shields.io/github/stars/basuinfotech/bootstrap-component-library?style=social">    <img align = "right" src ="https://img.shields.io/github/forks/basuinfotech/bootstrap-component-library?style=social">
+# Bootstrap-Component-library <img align = "right" src ="https://img.shields.io/github/watchers/basuinfotech/bootstrap-component-library?style=social"> <img align = "right" src ="https://img.shields.io/github/stars/basuinfotech/bootstrap-component-library?style=social">    <img align = "right" src ="https://img.shields.io/github/forks/basuinfotech/bootstrap-component-library?style=social">
 
 <img src="https://img.shields.io/github/contributors/basuinfotech/bootstrap-component-library">  <img src="https://img.shields.io/tokei/lines/github/basuinfotech/bootstrap-component-library">           <img src="https://img.shields.io/github/last-commit/basuinfotech/bootstrap-component-library">   <img src="https://img.shields.io/github/languages/count/basuinfotech/bootstrap-component-library">
 
@@ -7,14 +7,18 @@
   <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" width="400">
 </p>
 
-## Proud Contributors
-<br>
+# Proud Contributors
+<p float="left">
+  <img src="https://cdn140.picsart.com/236248854021212.png?type=webp&to=min&r=640" width="32%">
+  <img src="https://cdn140.picsart.com/236248854021212.png?type=webp&to=min&r=640" width="32%">
+  <img src="https://cdn140.picsart.com/236248854021212.png?type=webp&to=min&r=640" width="32%">
+</p>
 <a href="https://github.com/aritrakrbasu/bootstrap-component-library/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aritrakrbasu/bootstrap-component-library" />
+  <img src="https://contrib.rocks/image?repo=aritrakrbasu/bootstrap-component-library" width="100%" />
 </a>
 
 <br><br>  
-This Repository will have different type of pre-build components like navigation bar , carousel etc etc based on bootstrap . Please consider contributing to it if you think your designed components could help newbie frontend coders . 
+This Repository has different type of pre-build components like navigation bar , carousel etc etc based on bootstrap . Please consider contributing to it if you think your designed components could help newbie frontend coders . 
 
 All the compoments must be build up on bootstrap library .
 
