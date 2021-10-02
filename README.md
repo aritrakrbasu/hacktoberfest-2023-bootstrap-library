@@ -17,8 +17,8 @@
   <img src="https://contrib.rocks/image?repo=aritrakrbasu/bootstrap-component-library" width="100%" />
 </a>
 
-<br><br>  
-This Repository has different type of pre-build components like navigation bar , carousel etc etc based on bootstrap . Please consider contributing to it if you think your designed components could help newbie frontend coders . 
+<br><br>
+This Repository has different type of pre-build components like navigation bar , carousel etc etc based on bootstrap . Please consider contributing to it if you think your designed components could help newbie frontend coders .
 
 All the compoments must be build up on bootstrap library .
 
@@ -32,28 +32,26 @@ Also read, [CODE OF CONDUCT](https://github.com/basuinfotech/bootstrap-component
 npm install bootstrap
 
 # Via gem
-gem install bootstrap -v 4.5.2
+gem install bootstrap -v 5.1.1
 ```
 **OR**
 
 ```
 <!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 ```
 **OR**
-[DOWNLOAD BOOTSTRAP](https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip)
+[DOWNLOAD BOOTSTRAP](https://github.com/twbs/bootstrap/releases/download/v5.1.1/bootstrap-5.1.1-dist.zip)
 
 ## Fork this repository and clone on your local machine
 ```
 git clone https://github.com/basuinfotech/bootstrap-component-library.git
 ```
 
-## Create a branch  
+## Create a branch
 ```
 git checkout -b branch_name
 ```
@@ -71,7 +69,7 @@ git push origin branch_name
 
 ## For Beginners:
 ```
-Fork this repository -> Create the Files in the Forked Repository(Available under your repositories) -> Send a Pull Request(PR) writing a proper documentation -> Wait for it to get Merged (if everything is rightly done, else update the requested changes 😉) 
+Fork this repository -> Create the Files in the Forked Repository(Available under your repositories) -> Send a Pull Request(PR) writing a proper documentation -> Wait for it to get Merged (if everything is rightly done, else update the requested changes 😉)
 
 ```
 
@@ -80,9 +78,8 @@ Fork this repository -> Create the Files in the Forked Repository(Available unde
   <b>Happy Hacktober Fest 2021 🤩</b>
 </p>
 
-  
+
 
 Looking forward to your PRs!!!
 
 Please consider contributing to it if you think your solution could help the Open Source Community :)
-
