@@ -7,6 +7,7 @@
   <img src="https://i0.wp.com/fossnaija.com/wp-content/uploads/2022/09/fossnaija.com-hacktoberfest-2022.png?ssl=1" width="1000">
 </p>
 
+
 # Proud Contributors
 <p float="left">
   <img src="https://cdn140.picsart.com/236248854021212.png?type=webp&to=min&r=640" width="32%">
@@ -32,19 +33,19 @@ Also read, [CODE OF CONDUCT](https://github.com/basuinfotech/bootstrap-component
 npm install bootstrap
 
 # Via gem
-gem install bootstrap -v 5.1.1
+gem install bootstrap -v 5.2.1
 ```
 **OR**
 
 ```
 <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 <!-- JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 ```
 **OR**
-[DOWNLOAD BOOTSTRAP](https://github.com/twbs/bootstrap/releases/download/v5.1.1/bootstrap-5.1.1-dist.zip)
+[DOWNLOAD BOOTSTRAP](https://github.com/twbs/bootstrap/releases/download/v5.2.1/bootstrap-5.2.1-dist.zip)
 
 ## Fork this repository and clone on your local machine
 ```
@@ -75,7 +76,7 @@ Fork this repository -> Create the Files in the Forked Repository(Available unde
 
 <p>
   <br>
-  <b>Happy Hacktober Fest 2021 🤩</b>
+  <b>Happy Hacktober Fest 2022 🤩</b>
 </p>
 
 
