@@ -4,7 +4,7 @@
 
 <br><br>
 <p align="center">
-  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" width="400">
+  <img src="https://github.blog/wp-content/uploads/2022/10/hacktoberfestbanner.jpeg?fit=1200%2C630" width="400">
 </p>
 
 # Proud Contributors
