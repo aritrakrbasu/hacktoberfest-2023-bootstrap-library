@@ -2,6 +2,11 @@
 
 <img src="https://img.shields.io/github/contributors/basuinfotech/bootstrap-component-library">  <img src="https://img.shields.io/tokei/lines/github/basuinfotech/bootstrap-component-library">           <img src="https://img.shields.io/github/last-commit/basuinfotech/bootstrap-component-library">   <img src="https://img.shields.io/github/languages/count/basuinfotech/bootstrap-component-library">
 
+<br><br>
+<p align="center">
+  <img src="https://i0.wp.com/fossnaija.com/wp-content/uploads/2022/09/fossnaija.com-hacktoberfest-2022.png?ssl=1" width="1000">
+</p>
+
 
 # Proud Contributors
 <p float="left">
